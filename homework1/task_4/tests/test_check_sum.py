@@ -1,5 +1,4 @@
 import pytest
-
 from task_4.check_sum_of_four import check_sum_of_four
 
 

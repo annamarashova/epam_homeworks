@@ -1,7 +1,6 @@
 import os
 
 import pytest
-
 from task_3.find_maximum_and_minimum import find_maximum_and_minimum
 
 path = os.path.dirname(__file__)  # возвращает путь к директории

@@ -1,5 +1,4 @@
 import pytest
-
 from task_2.fib_sequence import check_sequence
 
 
