@@ -32,12 +32,12 @@ def test_get_rarest_char():
 
 
 def test_count_punctuation_chars():
-    assert count_punctuation_chars("data.txt") == 5305
+    assert count_punctuation_chars(path + "/data.txt") == 5305
 
 
 def test_count_non_ascii_chars():
-    assert count_non_ascii_chars("data.txt") == 84
+    assert count_non_ascii_chars(path + "/data.txt") == 84
 
 
 def test_get_most_common_non_ascii_char():
-    assert get_most_common_non_ascii_char("data.txt") == "—"
+    assert get_most_common_non_ascii_char(path + "/data.txt") == "—"
